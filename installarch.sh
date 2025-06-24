@@ -12,10 +12,5 @@ fi
 #copy files to .config
 cp -rf * .[!.]* ~/.config/
 
-#copy init to .conifg/river
-if [ -f init ]; then
-  cp -f init ~/.config/river/
-fi
-
 #remove the dotfiles
 rm -rf dotfiles
