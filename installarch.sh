@@ -20,4 +20,5 @@ if [ -f installarch.sh ]; then
 fi
 
 #remove the dotfiles
+cd
 rm -rf dotfiles
