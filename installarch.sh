@@ -6,10 +6,10 @@ yay waypaper
 
 #copy files to .config
 cd dotfiles
-cp river ~/.config
-cp wofi ~/.config
-cp waybar ~/.config
-cp waypaper ~/.config
+cp -rf river ~/.config
+cp -rf wofi ~/.config
+cp -rf waybar ~/.config
+cp -rf waypaper ~/.config
 cp installarch.sh ~/.config
 cd .config
 cd river 
