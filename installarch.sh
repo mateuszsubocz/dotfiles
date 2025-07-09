@@ -12,12 +12,9 @@ cp waybar ~/.config
 cp waypaper ~/.config
 cp installarch.sh ~/.config
 cd .config
-
-#The installing script making go brrrr
-if [ -f installarch.sh ]; then
-  chmod +x installarch.sh
-  ./installarch.sh
-fi
+cd river 
+chmod +x init
+cd ..
 
 #remove the dotfiles
 cd
